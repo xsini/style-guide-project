@@ -40,6 +40,7 @@ nav:
   - Границы прототипа: product-scope.md
   - Сообщения и ошибки: messages.md
   - Шаблоны: templates.md
+  - Доступность текста: accessibility.md
   - Проверка перед публикацией: checklist.md
   - Описание продукта: examples/readme-fragment.md
   - Инструкция по отклику: examples/response-instruction.md

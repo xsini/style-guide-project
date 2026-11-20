@@ -1,0 +1,48 @@
+site_name: Руководство по стилю Travel Buddy Finder
+site_description: Правила подготовки документации клиентского MVP-прототипа
+site_author: Яковенко Ксения Александровна
+site_url: https://xsini.github.io/style-guide-project/
+use_directory_urls: true
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+plugins:
+  - search:
+      lang: ru
+markdown_extensions:
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+nav:
+  - Главная: index.md
+  - Принципы: principles.md
+  - Читатели и документы: audiences.md
+  - Тон и стиль: tone.md
+  - Термины: terminology.md
+  - Орфография и числа: spelling.md
+  - Структура: structure.md
+  - Markdown: markdown.md
+  - Границы прототипа: product-scope.md
+  - Сообщения и ошибки: messages.md
+  - Шаблоны: templates.md
+  - Проверка перед публикацией: checklist.md
+  - Описание продукта: examples/readme-fragment.md
+  - Инструкция по отклику: examples/response-instruction.md
+  - Проверка стайлгайда: examples/validation.md
+  - Внедрение и поддержка: adoption.md
+  - Источники: sources.md

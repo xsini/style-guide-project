@@ -1,0 +1,12 @@
+{
+  "name": "style-guide-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Style guide for Travel Buddy Finder",
+  "scripts": {
+    "lint:md": "markdownlint-cli2"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.20.0"
+  }
+}
